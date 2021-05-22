@@ -1,0 +1,38 @@
+﻿SCRIPS DA CRIAÇÃO DO PROCE Stored Procedures SQL
+
+USE [CadastroPessoas]
+GO
+
+/****** Object:  StoredProcedure [dbo].[prdPessoaGravar]    Script Date: 21/05/2021 18:08:46 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+-- =============================================
+-- Author:		<Author,,Name>
+-- Create date: <Create Date,,>
+-- Description:	<Description,,>
+-- =============================================
+CREATE PROCEDURE [dbo].[prdPessoaGravar]
+	@cpf varchar(50),
+	@rg varchar(50),
+	@nome varchar(50),
+	@email varchar(50)
+
+AS
+BEGIN
+--criaropcao de validar cpf depois
+ INSERT INTO [dbo].[Pessoa]
+           ([Cpf]
+           ,[Rg]
+           ,[Nome]
+           ,[Email])
+     VALUES
+           (@cpf
+           ,@rg
+           ,@nome
+           ,@email)
+END
+GO

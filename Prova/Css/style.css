@@ -1,0 +1,131 @@
+﻿* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+
+
+header {
+    margin-top: 25px;
+}
+
+
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color:#ccc;
+    
+}
+
+.clear {
+    clear: both;
+}
+
+.logo {
+    background-image: url('../imagens/logo.png');
+    width: 194px;
+    height: 66px;
+    background-size: 100% 100%;
+    float: left;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+   
+}
+
+.menu {
+    float: right;
+    padding-right: 2%;
+}
+
+    .menu > nav > ul > li {
+        float: left;
+        padding-left: 20px;
+        list-style-type: none;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #b4b4b4;
+        font-size: 18px;
+    }
+
+    .menu > .menu-mobile {
+        display: none;
+    }
+
+
+   
+
+section.sessao-contato .container {
+    text-align: center;
+    padding-top: 60px;
+    max-width: 600px;
+    background-color:white;
+}
+
+
+
+
+section.sessao-contato .box-form h2 {
+    color: #698293;
+    font-size: 18px;
+}
+
+section.sessao-contato .box-form form h2 {
+    color: #b4b4b4;
+    font-size: 15px;
+    text-align: left;
+    padding: 10px 0;
+}
+
+section.sessao-contato .box-form .form-wraper input[type=text] {
+    width: 100%;
+    padding: 9px;
+}
+
+section.sessao-contato .box-form .form-wraper {
+    float: left;
+    padding: 9px;
+}
+
+section.sessao-contato .box-form .w50 {
+    width: 50%;
+}
+
+section.sessao-contato .box-form .w100 {
+    width: 100%;
+}
+
+section.sessao-contato .box-form .form-wraper input[type=text] {
+    width: 100%;
+    padding: 9px 10px;
+    float: left;
+    border: 1px solid #dadada;
+}
+
+
+
+section.sessao-contato input[type=submit] {
+    width: 100px;
+    background-color: #688293;
+    padding: 9px 10px;
+    border: 0;
+    cursor: pointer;
+    color: white;
+    margin: 30px;
+}
+/*FINALIZA SESSAO-CONTATO**************************************/
+
+
+.grdLista{
+    width:100%;
+    
+    padding:20px;
+}
+
+.frmListaCadastro h2 {
+    text-align: center;
+}
+

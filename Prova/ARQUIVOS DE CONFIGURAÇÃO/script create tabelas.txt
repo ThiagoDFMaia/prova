@@ -1,0 +1,24 @@
+﻿
+SCRIPS DA CRIAÇÃO DA TABELA SQL
+
+USE [CadastroPessoas]
+GO
+
+/****** Object:  Table [dbo].[Pessoa]    Script Date: 21/05/2021 18:07:21 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[Pessoa](
+	[Cpf] [varchar](50) NOT NULL,
+	[Rg] [varchar](50) NOT NULL,
+	[Nome] [varchar](50) NOT NULL,
+	[Email] [varchar](50) NOT NULL
+) ON [PRIMARY]
+GO
+
+
+
+
